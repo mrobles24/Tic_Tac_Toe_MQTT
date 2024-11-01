@@ -27,5 +27,9 @@ Para jugar, sigue estos pasos:
 1. Abre una terminal y ejecuta el siguiente comando `docker-compose up -d` para inciar el contenedor con mosquitto
 2. En la misma terminal, ejecuta el comando `python3 tic_tac_toe.py` y abre otra terminal y ejecuta el mismo comando
 3. En ambas terminales, se te pedira que selecciones un jugador (X / O), siempre empezará X a jugar
-4. Por turnos, introduce la posición del tablero (0-8) en la que quieras colocar la ficha
+4. Por turnos, introduce la posición del tablero (0-8) en la que quieras colocar la ficha:
+   
+      ![image](https://github.com/user-attachments/assets/546b4740-9076-4ce4-87bd-98f9faf55c35)
+  
+
 5. El juego termina cuando hay una combinación ganadora o cuando el tablero está lleno y no se ha llegado a ninguna victoria (empate)
